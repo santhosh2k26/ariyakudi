@@ -110,10 +110,11 @@
         <!-- Right Campus Image with Soft Gradient Fade -->
         <div class="hero-backdrop-media">
           <img 
-            src="assets/photos/campus.jpg" 
-            alt="Government Higher Secondary School Ariyakudi Campus Building" 
+            src="assets/photos/entrance_gate.jpg" 
+            alt="Government Higher Secondary School Ariyakudi Main Entrance Gate" 
             class="hero-backdrop-img"
-            onerror="this.onerror=null; this.src='assets/hero-campus.svg';"
+            fetchpriority="high"
+            decoding="sync"
           >
           <div class="hero-backdrop-gradient" aria-hidden="true"></div>
         </div>
@@ -186,6 +187,18 @@
                   <span class="pillar-icon">💎</span>
                   <h4>Core Values</h4>
                   <p>Discipline, Knowledge, Integrity, Self-Reliance, Curiosity, and Mutual Respect.</p>
+                </div>
+              </div>
+
+              <!-- Dedicated Faculty Photo Banner -->
+              <div class="about-faculty-card reveal-on-scroll delay-1" style="margin-top: 32px; border-radius: 16px; overflow: hidden; border: 1.5px solid #e2e8f0; background: #ffffff; box-shadow: 0 4px 15px rgba(8, 44, 125, 0.06);">
+                <div style="position: relative; max-height: 400px; overflow: hidden;">
+                  <img src="assets/photos/faculty_staff.jpg" alt="Dedicated Teaching Faculty of GHSS Ariyakudi" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;">
+                  <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(4, 20, 58, 0.95) 0%, rgba(4, 20, 58, 0.65) 60%, transparent 100%); padding: 22px 24px; color: #ffffff;">
+                    <span style="font-size: 0.76rem; font-weight: 800; text-transform: uppercase; background: #f59e0b; color: #04143a; padding: 4px 10px; border-radius: 9999px; display: inline-block; margin-bottom: 6px;">Dedicated Educators</span>
+                    <h4 style="color: #ffffff; font-size: 1.3rem; margin-bottom: 4px; font-weight: 700;">Our Qualified Teaching Faculty</h4>
+                    <p style="color: #e2e8f0; font-size: 0.88rem; margin: 0; line-height: 1.45;">Committed postgraduate and graduate educators nurturing students in both Tamil and English Medium streams with passion and care.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -390,135 +403,129 @@
           </div>
 
           <div class="facilities-grid">
-            <!-- 1. Smart Classrooms -->
+            <!-- 1. Academic Classrooms -->
             <div class="facility-card reveal-on-scroll">
               <div class="facility-img-box">
                 <img 
-                  src="assets/photos/smart_class.jpg" 
-                  alt="Smart Classrooms & Audio-Visual Teaching" 
+                  src="assets/photos/academic_awards.jpg" 
+                  alt="Academic Classrooms & Learning Environment" 
                   loading="lazy" 
                   width="400" 
                   height="260"
-                  onerror="this.onerror=null; this.src='assets/facilities/smart-class.svg';"
                 >
-                <span class="facility-pill">Digital Learning</span>
+                <span class="facility-pill">Academic Learning</span>
               </div>
               <div class="facility-card-body">
                 <div class="fac-icon-title">
-                  <span class="f-icon">🖥️</span>
-                  <h3>Smart Classrooms</h3>
+                  <span class="f-icon">📖</span>
+                  <h3>Academic Classrooms</h3>
                 </div>
-                <p>Audio-visual smart displays and interactive digital lessons.</p>
+                <p>Spacious, focused classrooms fostering conceptual mastery in Tamil and English mediums.</p>
               </div>
             </div>
 
-            <!-- 2. Science Laboratory -->
+            <!-- 2. Science & Innovation Research -->
             <div class="facility-card reveal-on-scroll delay-1">
               <div class="facility-img-box">
                 <img 
-                  src="assets/photos/science_lab.jpg" 
-                  alt="Science Practical Laboratory" 
+                  src="assets/photos/world_record_telescope.jpg" 
+                  alt="Science & Innovation Research" 
                   loading="lazy" 
                   width="400" 
                   height="260"
-                  onerror="this.onerror=null; this.src='assets/facilities/science-lab.svg';"
                 >
-                <span class="facility-pill">Practical Lab</span>
+                <span class="facility-pill">Science Innovation</span>
               </div>
               <div class="facility-card-body">
                 <div class="fac-icon-title">
-                  <span class="f-icon">🧪</span>
-                  <h3>Science Laboratories</h3>
+                  <span class="f-icon">🔭</span>
+                  <h3>Science &amp; Innovation</h3>
                 </div>
-                <p>Equipped Physics, Chemistry, and Biology practical labs.</p>
+                <p>Encouraging astronomical, physical, and scientific innovations leading to national records.</p>
               </div>
             </div>
 
-            <!-- 3. Hi-Tech Computer Laboratory -->
+            <!-- 3. Smart Organic Farming & Green Campus -->
             <div class="facility-card reveal-on-scroll delay-2">
               <div class="facility-img-box">
                 <img 
-                  src="assets/photos/computer_lab.jpg" 
-                  alt="Hi-Tech Computer Laboratory" 
+                  src="assets/photos/organic_farming_project.jpg" 
+                  alt="Rooftop Organic Terrace & Drip Irrigation" 
                   loading="lazy" 
                   width="400" 
                   height="260"
-                  onerror="this.onerror=null; this.src='assets/facilities/computer-lab.svg';"
                 >
-                <span class="facility-pill">Computer Lab</span>
+                <span class="facility-pill">Green Campus</span>
               </div>
               <div class="facility-card-body">
                 <div class="fac-icon-title">
-                  <span class="f-icon">💻</span>
-                  <h3>Hi-Tech Computer Lab</h3>
+                  <span class="f-icon">🌱</span>
+                  <h3>Organic Agriculture</h3>
                 </div>
-                <p>Dedicated computer terminals with high-speed internet &amp; coding practice.</p>
+                <p>Terrace organic cultivation and automated micro-drip irrigation botanical training.</p>
               </div>
             </div>
 
-            <!-- 4. School Library -->
+            <!-- 4. Nutritious Midday Meal Scheme -->
             <div class="facility-card reveal-on-scroll delay-3">
               <div class="facility-img-box">
                 <img 
-                  src="assets/photos/library.jpg" 
-                  alt="School Library and Reading Corner" 
+                  src="assets/photos/midday_meal_scheme.jpg" 
+                  alt="Nutritious Midday Meal Scheme for Students" 
                   loading="lazy" 
                   width="400" 
                   height="260"
-                  onerror="this.onerror=null; this.src='assets/facilities/library.svg';"
                 >
-                <span class="facility-pill">Library</span>
+                <span class="facility-pill">Nutritious Meals</span>
               </div>
               <div class="facility-card-body">
                 <div class="fac-icon-title">
-                  <span class="f-icon">📚</span>
-                  <h3>School Library</h3>
+                  <span class="f-icon">🍲</span>
+                  <h3>Nutritious Midday Meals</h3>
                 </div>
-                <p>Curated books, reference guides, exam materials, and daily newspapers.</p>
+                <p>Hygienic, hot, nutritious lunch provided daily under Tamil Nadu Government Midday Meal Scheme.</p>
               </div>
             </div>
 
-            <!-- 5. Sports Playground -->
+            <!-- 5. NCC Cadet Training & Discipline Ground -->
             <div class="facility-card reveal-on-scroll">
               <div class="facility-img-box">
                 <img 
-                  src="assets/photos/kabaddi.jpg" 
-                  alt="School Sports Ground and Kabaddi Court" 
+                  src="assets/photos/ncc_cadets.jpg" 
+                  alt="9 Tamil Nadu Battalion NCC Cadet Wing" 
                   loading="lazy" 
                   width="400" 
                   height="260"
-                  onerror="this.onerror=null; this.src='assets/facilities/playground.svg';"
                 >
-                <span class="facility-pill">Sports Ground</span>
+                <span class="facility-pill">NCC &amp; Leadership</span>
               </div>
               <div class="facility-card-body">
                 <div class="fac-icon-title">
-                  <span class="f-icon">⚽</span>
-                  <h3>Sports Playground</h3>
+                  <span class="f-icon">🎖️</span>
+                  <h3>9 TN Battalion NCC Wing</h3>
                 </div>
-                <p>Open ground for Kabaddi, Kho-Kho, Volleyball, Football, and athletics.</p>
+                <p>Army officer mentored cadet wing fostering endurance, drill, discipline, and defense preparation.</p>
               </div>
             </div>
 
-            <!-- 6. Drinking Water -->
+            <!-- 6. School Assembly & Community Heritage -->
             <div class="facility-card reveal-on-scroll delay-1">
               <div class="facility-img-box">
                 <img 
-                  src="assets/photos/eco_garden.jpg" 
-                  alt="Clean Green Campus & RO Water" 
+                  src="assets/photos/teacher_felicitation.jpg" 
+                  alt="School Assembly Stage & Courtyard" 
                   loading="lazy" 
                   width="400" 
                   height="260"
-                  onerror="this.onerror=null; this.src='assets/facilities/clean-campus.svg';"
                 >
-                <span class="facility-pill">Eco &amp; RO Water</span>
+                <span class="facility-pill">Assembly &amp; Heritage</span>
               </div>
               <div class="facility-card-body">
                 <div class="fac-icon-title">
-                  <span class="f-icon">💧</span>
-                  <h3>RO Water &amp; Green Campus</h3>
+                  <span class="f-icon">🏛️</span>
+                  <h3>Assembly &amp; School Stage</h3>
                 </div>
-                <p>Clean RO drinking water, hygienic sanitation, and tree-lined eco campus.</p>
+                <p>Spacious assembly courtyard for morning prayer, felicitation ceremonies, and cultural fests.</p>
               </div>
             </div>
           </div>
@@ -622,6 +629,108 @@
               <p>Innovative working models developed by students selected for district and state-level Inspire Awards exhibitions.</p>
             </div>
           </div>
+
+          <!-- Major Student Milestones & Honors Showcase Cards -->
+          <div class="achieve-milestones-section reveal-on-scroll">
+            <div class="milestones-header text-center" style="margin-bottom: 28px;">
+              <span class="section-badge">Historic Milestones</span>
+              <h3 style="font-size: 1.65rem; color: var(--navy-900); font-weight: 800; margin-bottom: 6px;">Major Student Honors &amp; Recognitions</h3>
+              <p style="color: var(--slate-500); font-size: 0.95rem;">Real pride moments achieved by GHSS Ariyakudi students in World Records, Academics, NCC &amp; Agriculture.</p>
+            </div>
+
+            <div class="milestones-grid">
+              <!-- Milestone 1: World Record Telescope -->
+              <div class="milestone-card">
+                <div class="milestone-img-wrap">
+                  <img src="assets/photos/world_record_telescope.jpg" alt="All India World Record Telescope Innovation by Student Vishnu" loading="lazy">
+                  <span class="milestone-badge world-record">🌟 All India World Record</span>
+                </div>
+                <div class="milestone-content">
+                  <h4>All India World Record – Telescope Innovation</h4>
+                  <p>Class 12 student <strong>V. Vishnu</strong> designed low-cost astronomical telescopes for lunar topography with 69 teachers at Namakkal DIET, certified by All India World Records &amp; All India Book of Records.</p>
+                  <div class="milestone-footer-tag">🔭 Science &amp; Innovation Milestone</div>
+                </div>
+              </div>
+
+              <!-- Milestone 2: Academic Board Distinction -->
+              <div class="milestone-card">
+                <div class="milestone-img-wrap">
+                  <img src="assets/photos/academic_awards.jpg" alt="GHSS Ariyakudi Board Exam Merit Students Award Felicitation" loading="lazy">
+                  <span class="milestone-badge academic">🏆 Academic Merit Awards</span>
+                </div>
+                <div class="milestone-content">
+                  <h4>State Board Examination Merit Felicitations</h4>
+                  <p>Headmaster and faculty honoring high-scoring 10th SSLC and 12th HSC students with certificates and medals for centum marks and academic excellence.</p>
+                  <div class="milestone-footer-tag">🎓 Board Exam Centum &amp; Pass Honors</div>
+                </div>
+              </div>
+
+              <!-- Milestone 3: Medical College Graduation -->
+              <div class="milestone-card">
+                <div class="milestone-img-wrap">
+                  <img src="assets/photos/medical_graduation_honor.jpg" alt="GHSS Ariyakudi Alumna Medical College Graduation Felicitation" loading="lazy">
+                  <span class="milestone-badge medical">🩺 Medical Graduation Honor</span>
+                </div>
+                <div class="milestone-content">
+                  <h4>Alumni Medical College (MCH) Graduation</h4>
+                  <p>School faculty and Headmaster proudly felicitating GHSS Ariyakudi alumna graduating in Medicine (MCH), standing as a beacon of inspiration for all government school students.</p>
+                  <div class="milestone-footer-tag">👩‍⚕️ Higher Education &amp; Medical Success</div>
+                </div>
+              </div>
+
+              <!-- Milestone 4: NCC Battalion -->
+              <div class="milestone-card">
+                <div class="milestone-img-wrap">
+                  <img src="assets/photos/ncc_cadets.jpg" alt="9 Tamil Nadu Battalion NCC Unit at GHSS Ariyakudi" loading="lazy">
+                  <span class="milestone-badge ncc">🎖️ 9 TN Battalion NCC</span>
+                </div>
+                <div class="milestone-content">
+                  <h4>9 Tamil Nadu Battalion NCC &amp; Youth Leadership</h4>
+                  <p>Active NCC cadet wing training students in drill, firing, discipline, national integration, and preparing youngsters for careers in Indian Armed Forces and Police Services.</p>
+                  <div class="milestone-footer-tag">🇮🇳 National Cadet Corps &amp; Leadership</div>
+                </div>
+              </div>
+
+              <!-- Milestone 5: Organic Terrace Agriculture -->
+              <div class="milestone-card">
+                <div class="milestone-img-wrap">
+                  <img src="assets/photos/organic_farming_project.jpg" alt="Students Organic Terrace Drip Farming Project" loading="lazy">
+                  <span class="milestone-badge organic">🌱 Smart Organic Farming</span>
+                </div>
+                <div class="milestone-content">
+                  <h4>Rooftop Organic Terrace &amp; Drip Irrigation Project</h4>
+                  <p>Hands-on agricultural science training where students cultivate organic vegetables and medicinal herbs using automated micro-drip irrigation and soil enrichment techniques.</p>
+                  <div class="milestone-footer-tag">🌾 Agricultural Science &amp; Green Drive</div>
+                </div>
+              </div>
+
+              <!-- Milestone 6: Student Prize & Certificate Distribution -->
+              <div class="milestone-card">
+                <div class="milestone-img-wrap">
+                  <img src="assets/photos/prize_distribution.jpg" alt="GHSS Ariyakudi Student Prize and Certificate Distribution" loading="lazy">
+                  <span class="milestone-badge academic">🏅 School Prize Distribution</span>
+                </div>
+                <div class="milestone-content">
+                  <h4>Annual Academic &amp; Competition Honors</h4>
+                  <p>Students awarded medals, certificates, and prizes by the Headmaster and faculty for exemplary performance in academic competitions, talent tests, and extra-curriculars.</p>
+                  <div class="milestone-footer-tag">🎁 Student Recognition &amp; Awards</div>
+                </div>
+              </div>
+
+              <!-- Milestone 7: Teacher Felicitation -->
+              <div class="milestone-card">
+                <div class="milestone-img-wrap">
+                  <img src="assets/photos/teacher_felicitation.jpg" alt="Teacher Felicitation and Service Honor by Headmaster and Faculty" loading="lazy">
+                  <span class="milestone-badge world-record">💐 Faculty Service Honor</span>
+                </div>
+                <div class="milestone-content">
+                  <h4>Teacher Felicitation &amp; Service Appreciation</h4>
+                  <p>Honoring dedicated faculty members with traditional golden shawls (பொன்னாடை) by the Headmaster and fellow teachers for outstanding educational mentorship and school service.</p>
+                  <div class="milestone-footer-tag">👩‍🏫 Teacher Appreciation &amp; Legacy</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -695,219 +804,190 @@
 
           <!-- Gallery Filter Tabs -->
           <div class="filter-btn-group reveal-on-scroll" id="galleryFilters" role="tablist" aria-label="Gallery category filters">
-            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Photos</button>
-            <button class="filter-btn" data-filter="campus" role="tab" aria-selected="false">Campus</button>
-            <button class="filter-btn" data-filter="classrooms" role="tab" aria-selected="false">Classrooms</button>
-            <button class="filter-btn" data-filter="events" role="tab" aria-selected="false">Events</button>
-            <button class="filter-btn" data-filter="sports" role="tab" aria-selected="false">Sports</button>
-            <button class="filter-btn" data-filter="activities" role="tab" aria-selected="false">Activities</button>
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Real Photos (11)</button>
+            <button class="filter-btn" data-filter="campus" role="tab" aria-selected="false">Campus &amp; Faculty</button>
+            <button class="filter-btn" data-filter="events" role="tab" aria-selected="false">Events &amp; Honors</button>
+            <button class="filter-btn" data-filter="activities" role="tab" aria-selected="false">Student Activities</button>
           </div>
 
-          <!-- Gallery Grid with Real Photos & Fallbacks -->
+          <!-- Gallery Grid with 100% Real Photos -->
           <div class="gallery-grid" id="galleryGrid">
-            <!-- Item 1: Campus -->
-            <div class="gallery-item reveal-on-scroll" data-category="campus" data-src="assets/photos/campus.jpg" data-caption="GHSS Ariyakudi School Building, Courtyard &amp; Main Entrance">
+            <!-- 1. Main Entrance Gate -->
+            <div class="gallery-item reveal-on-scroll" data-category="campus" data-src="assets/photos/entrance_gate.jpg" data-caption="GHSS Ariyakudi School Main Entrance Gate &amp; Green Campus Arch">
               <div class="gallery-thumb">
                 <img 
-                  src="assets/photos/campus.jpg" 
-                  alt="GHSS Ariyakudi Campus Entrance" 
+                  src="assets/photos/entrance_gate.jpg" 
+                  alt="GHSS Ariyakudi Main Entrance Gate" 
                   loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/gallery/campus-1.svg';"
                 >
                 <div class="gallery-overlay">
                   <span class="zoom-icon">🔍</span>
-                  <h4>Campus Main Building</h4>
-                  <p>Spacious and green school premises</p>
+                  <h4>Main Entrance Gate</h4>
+                  <p>Lush green campus with school motto</p>
                 </div>
               </div>
             </div>
 
-            <!-- Item 2: Assembly -->
-            <div class="gallery-item reveal-on-scroll delay-1" data-category="events" data-src="assets/photos/assembly.jpg" data-caption="School Morning Prayer Assembly with Students in Uniform">
+            <!-- 2. Teaching Faculty Group -->
+            <div class="gallery-item reveal-on-scroll delay-1" data-category="campus" data-src="assets/photos/faculty_staff.jpg" data-caption="GHSS Ariyakudi Dedicated Teaching Faculty &amp; Educators Group Photo">
               <div class="gallery-thumb">
                 <img 
-                  src="assets/photos/assembly.jpg" 
-                  alt="Morning Prayer Assembly" 
+                  src="assets/photos/faculty_staff.jpg" 
+                  alt="GHSS Ariyakudi Dedicated Teaching Faculty Group Photo" 
                   loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/gallery/campus-2.svg';"
                 >
                 <div class="gallery-overlay">
                   <span class="zoom-icon">🔍</span>
-                  <h4>Morning Assembly</h4>
-                  <p>Disciplined student prayer session</p>
+                  <h4>Teaching Faculty</h4>
+                  <p>Our dedicated educators group</p>
                 </div>
               </div>
             </div>
 
-            <!-- Item 3: Classrooms -->
-            <div class="gallery-item reveal-on-scroll delay-2" data-category="classrooms" data-src="assets/photos/smart_class.jpg" data-caption="Smart Audio-Visual Classroom &amp; High School Biology Lecture">
+            <!-- 3. World Record Telescope Innovation -->
+            <div class="gallery-item reveal-on-scroll delay-2" data-category="events" data-src="assets/photos/world_record_telescope.jpg" data-caption="Student V. Vishnu All India World Record Certificate &amp; Low-Cost Telescope Presentation">
               <div class="gallery-thumb">
                 <img 
-                  src="assets/photos/smart_class.jpg" 
-                  alt="Smart Classroom Session" 
+                  src="assets/photos/world_record_telescope.jpg" 
+                  alt="Student V. Vishnu All India World Record Telescope Innovation" 
                   loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/gallery/classroom-1.svg';"
                 >
                 <div class="gallery-overlay">
                   <span class="zoom-icon">🔍</span>
-                  <h4>Smart Classroom</h4>
-                  <p>Interactive digital teaching</p>
+                  <h4>World Record Telescope</h4>
+                  <p>Student Vishnu's All India Record</p>
                 </div>
               </div>
             </div>
 
-            <!-- Item 4: Science Lab -->
-            <div class="gallery-item reveal-on-scroll delay-3" data-category="classrooms" data-src="assets/photos/science_lab.jpg" data-caption="High School Science Laboratory Practicals &amp; Experiments">
+            <!-- 4. Academic Board Exam Awards -->
+            <div class="gallery-item reveal-on-scroll delay-3" data-category="events" data-src="assets/photos/academic_awards.jpg" data-caption="Headmaster &amp; Teachers Felicitating Board Exam Merit Students with Certificates">
               <div class="gallery-thumb">
                 <img 
-                  src="assets/photos/science_lab.jpg" 
-                  alt="Science Lab Practical Session" 
+                  src="assets/photos/academic_awards.jpg" 
+                  alt="GHSS Ariyakudi Board Exam Merit Students Award Felicitation" 
                   loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/facilities/science-lab.svg';"
                 >
                 <div class="gallery-overlay">
                   <span class="zoom-icon">🔍</span>
-                  <h4>Science Laboratory</h4>
-                  <p>Hands-on practical experiments</p>
+                  <h4>Academic Merit Awards</h4>
+                  <p>Board exam top scorers felicitation</p>
                 </div>
               </div>
             </div>
 
-            <!-- Item 5: Sports -->
-            <div class="gallery-item reveal-on-scroll" data-category="sports" data-src="assets/photos/kabaddi.jpg" data-caption="Tamil Nadu State School Kabaddi Tournament on School Ground">
+            <!-- 5. Student Prize & Certificate Distribution -->
+            <div class="gallery-item reveal-on-scroll" data-category="events" data-src="assets/photos/prize_distribution.jpg" data-caption="GHSS Ariyakudi Student Prize &amp; Certificate Distribution with Headmaster">
               <div class="gallery-thumb">
                 <img 
-                  src="assets/photos/kabaddi.jpg" 
-                  alt="Kabaddi Tournament" 
+                  src="assets/photos/prize_distribution.jpg" 
+                  alt="GHSS Ariyakudi Student Prize and Certificate Distribution" 
                   loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/gallery/sports-1.svg';"
                 >
                 <div class="gallery-overlay">
                   <span class="zoom-icon">🔍</span>
-                  <h4>Kabaddi Championship</h4>
-                  <p>Athletic team spirit on the ground</p>
+                  <h4>Prize Distribution</h4>
+                  <p>Students awarded medals &amp; prizes</p>
                 </div>
               </div>
             </div>
 
-            <!-- Item 6: Computer Lab -->
-            <div class="gallery-item reveal-on-scroll delay-1" data-category="classrooms" data-src="assets/photos/computer_lab.jpg" data-caption="TN Govt Hi-Tech Computer Laboratory Practical Session">
+            <!-- 6. Teacher Felicitation Ceremony -->
+            <div class="gallery-item reveal-on-scroll delay-1" data-category="events" data-src="assets/photos/teacher_felicitation.jpg" data-caption="Teacher Felicitation Ceremony with Golden Shawl by Headmaster &amp; Staff">
               <div class="gallery-thumb">
                 <img 
-                  src="assets/photos/computer_lab.jpg" 
-                  alt="Hi-Tech Computer Lab" 
+                  src="assets/photos/teacher_felicitation.jpg" 
+                  alt="Teacher Felicitation Ceremony with Golden Shawl" 
                   loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/gallery/classroom-2.svg';"
                 >
                 <div class="gallery-overlay">
                   <span class="zoom-icon">🔍</span>
-                  <h4>Hi-Tech Digital Lab</h4>
-                  <p>Practical coding &amp; computer skills</p>
+                  <h4>Teacher Felicitation</h4>
+                  <p>Honoring faculty with golden shawls</p>
                 </div>
               </div>
             </div>
 
-            <!-- Item 7: Science Exhibition -->
-            <div class="gallery-item reveal-on-scroll delay-2" data-category="events" data-src="assets/photos/science_fair.jpg" data-caption="District School Science Exhibition &amp; Innovative Student Working Models">
+            <!-- 7. Medical Graduation Honor -->
+            <div class="gallery-item reveal-on-scroll delay-2" data-category="events" data-src="assets/photos/medical_graduation_honor.jpg" data-caption="School Teachers &amp; Headmaster Honoring Alumna at Medical College Graduation">
               <div class="gallery-thumb">
                 <img 
-                  src="assets/photos/science_fair.jpg" 
-                  alt="Science Exhibition" 
+                  src="assets/photos/medical_graduation_honor.jpg" 
+                  alt="School Teachers Honoring Alumna at Medical College Graduation" 
                   loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/gallery/event-2.svg';"
                 >
                 <div class="gallery-overlay">
                   <span class="zoom-icon">🔍</span>
-                  <h4>Science Exhibition</h4>
-                  <p>Innovative student models &amp; demos</p>
+                  <h4>Medical Graduation Honor</h4>
+                  <p>Alumna medical degree felicitation</p>
                 </div>
               </div>
             </div>
 
-            <!-- Item 8: Sports Football -->
-            <div class="gallery-item reveal-on-scroll delay-3" data-category="sports" data-src="assets/photos/football.jpg" data-caption="Inter-School Football Championship Match on Playground">
+            <!-- 8. 9 Tamil Nadu Battalion NCC Cadets -->
+            <div class="gallery-item reveal-on-scroll delay-3" data-category="activities" data-src="assets/photos/ncc_cadets.jpg" data-caption="9 Tamil Nadu Battalion NCC Cadets &amp; Army Officers at School Assembly Hall">
               <div class="gallery-thumb">
                 <img 
-                  src="assets/photos/football.jpg" 
-                  alt="Football Tournament Match" 
+                  src="assets/photos/ncc_cadets.jpg" 
+                  alt="9 Tamil Nadu Battalion NCC Unit at GHSS Ariyakudi" 
                   loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/gallery/sports-2.svg';"
                 >
                 <div class="gallery-overlay">
                   <span class="zoom-icon">🔍</span>
-                  <h4>School Football Match</h4>
-                  <p>Energetic team spirit on the field</p>
+                  <h4>9 TN Battalion NCC</h4>
+                  <p>Cadets with army officers &amp; staff</p>
                 </div>
               </div>
             </div>
 
-            <!-- Item 9: Eco Club Plantation -->
-            <div class="gallery-item reveal-on-scroll" data-category="activities" data-src="assets/photos/eco_garden.jpg" data-caption="School Eco-Club Tree Plantation &amp; Green Campus Drive">
+            <!-- 9. Smart Organic Farming Project -->
+            <div class="gallery-item reveal-on-scroll" data-category="activities" data-src="assets/photos/organic_farming_project.jpg" data-caption="Students &amp; Teachers Hands-on Learning Organic Terrace Drip Agriculture">
               <div class="gallery-thumb">
                 <img 
-                  src="assets/photos/eco_garden.jpg" 
-                  alt="Eco Club Tree Plantation" 
+                  src="assets/photos/organic_farming_project.jpg" 
+                  alt="Students Organic Terrace Drip Farming Project" 
                   loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/gallery/activity-2.svg';"
                 >
                 <div class="gallery-overlay">
                   <span class="zoom-icon">🔍</span>
-                  <h4>Eco Club Green Drive</h4>
-                  <p>Tree plantation &amp; herbal garden</p>
+                  <h4>Smart Organic Farming</h4>
+                  <p>Rooftop drip agriculture training</p>
                 </div>
               </div>
             </div>
 
-            <!-- Item 10: School Library -->
-            <div class="gallery-item reveal-on-scroll delay-1" data-category="campus" data-src="assets/photos/library.jpg" data-caption="School Library &amp; Quiet Reference Reading Hall">
+            <!-- 10. Nutritious Midday Meal Scheme -->
+            <div class="gallery-item reveal-on-scroll delay-1" data-category="activities" data-src="assets/photos/midday_meal_scheme.jpg" data-caption="Nutritious Midday Meal Scheme Lunch Distribution for School Students">
               <div class="gallery-thumb">
                 <img 
-                  src="assets/photos/library.jpg" 
-                  alt="School Library Reading Space" 
+                  src="assets/photos/midday_meal_scheme.jpg" 
+                  alt="Nutritious Midday Meal Scheme Lunch Distribution" 
                   loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/facilities/library.svg';"
                 >
                 <div class="gallery-overlay">
                   <span class="zoom-icon">🔍</span>
-                  <h4>School Library</h4>
-                  <p>Books, journals &amp; reference hall</p>
+                  <h4>Nutritious Midday Meals</h4>
+                  <p>Daily hot lunch scheme distribution</p>
                 </div>
               </div>
             </div>
 
-            <!-- Item 11: Cultural Fest -->
-            <div class="gallery-item reveal-on-scroll delay-2" data-category="events" data-src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80" data-caption="Annual Cultural Celebrations &amp; Traditional Dance Performances">
+            <!-- 11. Social Awareness Rally -->
+            <div class="gallery-item reveal-on-scroll delay-2" data-category="activities" data-src="assets/photos/social_awareness_rally.jpg" data-caption="Student Social Awareness Rally &amp; Campaign (POCSO Act &amp; Beti Padhao)">
               <div class="gallery-thumb">
                 <img 
-                  src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80" 
-                  alt="School Cultural Fest" 
+                  src="assets/photos/social_awareness_rally.jpg" 
+                  alt="Student Social Awareness Rally and Village Campaign" 
                   loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/gallery/event-1.svg';"
                 >
                 <div class="gallery-overlay">
                   <span class="zoom-icon">🔍</span>
-                  <h4>Cultural Celebrations</h4>
-                  <p>Traditional folk arts &amp; drama</p>
+                  <h4>Social Awareness Rally</h4>
+                  <p>Student village awareness campaign</p>
                 </div>
               </div>
             </div>
 
-            <!-- Item 12: Creative Arts Workshop -->
-            <div class="gallery-item reveal-on-scroll delay-3" data-category="activities" data-src="https://images.unsplash.com/photo-1460661419200-1868aeb56fe8?auto=format&fit=crop&w=1200&q=80" data-caption="Student Arts, Painting &amp; Drawing Workshop">
-              <div class="gallery-thumb">
-                <img 
-                  src="https://images.unsplash.com/photo-1460661419200-1868aeb56fe8?auto=format&fit=crop&w=600&q=80" 
-                  alt="Arts and Drawing Workshop" 
-                  loading="lazy"
-                  onerror="this.onerror=null; this.src='assets/gallery/activity-1.svg';"
-                >
-                <div class="gallery-overlay">
-                  <span class="zoom-icon">🔍</span>
-                  <h4>Creative Arts &amp; Drawing</h4>
-                  <p>Expressive painting sessions</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -977,7 +1057,7 @@
               </div>
               <div class="map-visual-frame">
                 <iframe 
-                  src="https://maps.google.com/maps?q=Ariyakudi+Government+Higher+Secondary+School+Sivaganga+Tamil+Nadu&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                  src="https://maps.google.com/maps?q=Govt+Higher+Secondary+School,+Ariyakudi,+Tamil+Nadu&t=&z=16&ie=UTF8&iwloc=&output=embed" 
                   width="100%" 
                   height="100%" 
                   style="border:0; min-height: 380px; width: 100%; display: block;" 
@@ -990,7 +1070,7 @@
               <div class="map-footer-bar">
                 <span>Ariyakudi, Sivaganga District – 630 202</span>
                 <a 
-                  href="https://www.google.com/maps/search/?api=1&query=Government+Higher+Secondary+School+Ariyakudi+Sivaganga" 
+                  href="https://www.google.com/maps/search/?api=1&query=Govt+Higher+Secondary+School+Ariyakudi" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   class="map-link"
@@ -1022,11 +1102,6 @@
             <a href="https://www.facebook.com/govt.ariyakudi" target="_blank" rel="noopener noreferrer" class="social-icon social-facebook" aria-label="Official GHSS Ariyakudi Facebook Page" title="Facebook">
               <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
                 <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-              </svg>
-            </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon social-instagram" aria-label="Official GHSS Ariyakudi Instagram" title="Instagram">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
               </svg>
             </a>
             <a href="https://www.youtube.com/@GOVT.HR.SEC.SCHOOLARIYAKUDI" target="_blank" rel="noopener noreferrer" class="social-icon social-youtube" aria-label="Official GHSS Ariyakudi YouTube Channel" title="YouTube">
