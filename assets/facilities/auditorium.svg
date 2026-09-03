@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="audBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2b5c"/>
+      <stop offset="100%" stop-color="#1e4a96"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#audBg)"/>
+  <!-- Stage structure -->
+  <path d="M 40 200 L 360 200 L 330 160 L 70 160 Z" fill="#334155" stroke="#f59e0b" stroke-width="2"/>
+  <!-- Stage Backdrop Curtains -->
+  <path d="M 40 40 Q 90 100 60 160 L 40 160 Z" fill="#e11d48"/>
+  <path d="M 360 40 Q 310 100 340 160 L 360 160 Z" fill="#e11d48"/>
+  <rect x="70" y="60" width="260" height="100" rx="4" fill="#1e293b"/>
+  <!-- Stage Lights & Spotlights -->
+  <polygon points="120,40 150,150 90,150" fill="#fcd34d" opacity="0.25"/>
+  <polygon points="280,40 310,150 250,150" fill="#fcd34d" opacity="0.25"/>
+  <!-- Podium / Mic -->
+  <rect x="190" y="125" width="20" height="35" fill="#f59e0b" rx="2"/>
+  <circle cx="200" cy="115" r="5" fill="#ffffff"/>
+  <line x1="200" y1="120" x2="200" y2="125" stroke="#ffffff" stroke-width="2"/>
+  <!-- Text Label -->
+  <text x="200" y="235" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">School Activity &amp; Assembly Stage</text>
+</svg>

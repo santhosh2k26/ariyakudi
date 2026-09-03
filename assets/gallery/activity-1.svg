@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gAct1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c1d95"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#gAct1)"/>
+  <!-- Art & Painting Workshop -->
+  <!-- Easel & Canvas -->
+  <polygon points="180,60 420,60 420,240 180,240" fill="#f8fafc" stroke="#d97706" stroke-width="4"/>
+  <!-- Easel Legs -->
+  <line x1="300" y1="40" x2="300" y2="60" stroke="#78350f" stroke-width="6"/>
+  <line x1="200" y1="240" x2="160" y2="340" stroke="#78350f" stroke-width="6"/>
+  <line x1="400" y1="240" x2="440" y2="340" stroke="#78350f" stroke-width="6"/>
+  <!-- Painting on Canvas (Landscape) -->
+  <circle cx="250" cy="110" r="22" fill="#fbbf24"/>
+  <polygon points="185,220 280,120 370,220" fill="#16a34a"/>
+  <polygon points="260,220 340,150 415,220" fill="#047857"/>
+  <!-- Color Palette -->
+  <ellipse cx="480" cy="270" rx="35" ry="25" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+  <circle cx="465" cy="260" r="5" fill="#ef4444"/>
+  <circle cx="480" cy="255" r="5" fill="#3b82f6"/>
+  <circle cx="495" cy="265" r="5" fill="#10b981"/>
+  <circle cx="475" cy="278" r="5" fill="#a855f7"/>
+
+  <rect x="20" y="350" width="220" height="32" rx="6" fill="#0f172a" opacity="0.85"/>
+  <text x="30" y="371" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">Creative Arts &amp; Drawing Workshop</text>
+</svg>

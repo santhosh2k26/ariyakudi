@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GHSS Ariyakudi - Government Higher Secondary School, Ariyakudi, Sivaganga District. Dedicated to quality education for Classes 6 to 12 in Tamil Medium and English Medium with Hi-Tech labs, science practicals, and sports.">
+  <meta name="keywords" content="GHSS Ariyakudi, Government Higher Secondary School, Ariyakudi School, Sivaganga Education, Tamil Nadu School, Classes 6 to 12, Tamil Medium, English Medium">
+  <meta name="author" content="GHSS Ariyakudi">
+  
+  <!-- Open Graph / Social Sharing Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GHSS Ariyakudi | Government Higher Secondary School">
+  <meta property="og:description" content="Official website of Government Higher Secondary School, Ariyakudi. Quality education for Classes 6 to 12 in Tamil and English mediums.">
+  <meta property="og:image" content="assets/logo.png">
+  
+  <title>GHSS Ariyakudi | Government Higher Secondary School</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit for modern, prestigious educational typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+
+  <!-- Sticky Main Navigation Bar -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="container nav-container">
+      <!-- School Logo & Name -->
+      <a href="#home" class="nav-brand" aria-label="GHSS Ariyakudi Home" data-view="home">
+        <div class="nav-logo-box">
+          <img src="assets/logo.png" alt="GHSS Ariyakudi Official Emblem" class="nav-logo" width="54" height="54">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">GHSS ARIYAKUDI</span>
+          <span class="brand-subtitle">Govt. Higher Secondary School • Sivaganga</span>
+        </div>
+      </a>
+
+      <!-- Desktop Segmented Pill Navigation Menu -->
+      <div class="nav-menu-wrapper">
+        <ul class="nav-menu" id="navMenu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active" data-view="home">
+              <span class="nav-icon">🏫</span>
+              <span class="nav-text">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#academics" class="nav-link" data-view="academics">
+              <span class="nav-icon">🎓</span>
+              <span class="nav-text">Academics</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#campus" class="nav-link" data-view="campus">
+              <span class="nav-icon">🏛️</span>
+              <span class="nav-text">Campus</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#achievements" class="nav-link" data-view="achievements">
+              <span class="nav-icon">🏆</span>
+              <span class="nav-text">Achievements</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link" data-view="gallery">
+              <span class="nav-icon">📸</span>
+              <span class="nav-text">Gallery</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" data-view="contact">
+              <span class="nav-icon">📞</span>
+              <span class="nav-text">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Backdrop overlay for mobile menu -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+  <main>
+    <!-- ======================================================================
+         PAGE VIEW 1: HOME
+         ====================================================================== -->
+    <div class="page-view active" id="view-home">
+      <!-- Hero Banner Section (Matched to Reference Design) -->
+      <section class="hero-section" id="home">
+        <!-- Ambient Background Glow & Particles -->
+        <div class="hero-bg-shapes" aria-hidden="true">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+        </div>
+
+        <!-- Right Campus Image with Soft Gradient Fade -->
+        <div class="hero-backdrop-media">
+          <img 
+            src="assets/photos/campus.jpg" 
+            alt="Government Higher Secondary School Ariyakudi Campus Building" 
+            class="hero-backdrop-img"
+            onerror="this.onerror=null; this.src='assets/hero-campus.svg';"
+          >
+          <div class="hero-backdrop-gradient" aria-hidden="true"></div>
+        </div>
+
+        <div class="container hero-container">
+          <div class="hero-content reveal-on-scroll">
+            <span class="hero-pretitle">WELCOME TO</span>
+            <h2 class="hero-institution-type">Government Higher Secondary School</h2>
+            <h1 class="hero-main-title" id="heroMainTitle">GHSS Ariyakudi</h1>
+            <div class="hero-quote-motto" id="heroMottoBadge">
+              <span class="motto-icon">✨</span>
+              <span class="motto-text" id="mottoTypingText">“The Growth of Students is the Growth of the School”</span><span class="motto-cursor">|</span>
+            </div>
+            <p class="hero-lead-text">
+              Dedicated to academic excellence and holistic development of every student through quality education, discipline and values.
+            </p>
+            
+            <div class="hero-cta-group">
+              <a href="#academics" class="hero-btn-primary" data-view="academics">Explore Our School</a>
+              <a href="#about" class="hero-btn-secondary" data-view="about">Discover More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Badge Overlap (Classes 6 to 12) -->
+        <div class="hero-floating-pill">
+          <div class="pill-icon-box">
+            <svg class="pill-cap-icon" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/>
+            </svg>
+          </div>
+          <div class="pill-text-box">
+            <h4 class="pill-title">Classes 6 to 12</h4>
+            <span class="pill-subtitle">Tamil &amp; English Medium</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- About School Section -->
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="section-header text-center reveal-on-scroll">
+            <span class="section-badge">Know Our Legacy</span>
+            <h2 class="section-title">About GHSS Ariyakudi</h2>
+            <p class="section-subtitle">Empowering students from Class 6 to 12 with quality Tamil &amp; English medium education.</p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text-card reveal-on-scroll">
+              <h3 class="about-card-title">Our Educational Heritage</h3>
+              <p>
+                Government Higher Secondary School (GHSS), Ariyakudi stands as a premier government educational institution in Sivaganga district, Tamil Nadu, offering standard education from <strong>Class 6 to Class 12</strong> in both <strong>Tamil Medium</strong> and <strong>English Medium</strong>.
+              </p>
+              <p>
+                Equipped with dedicated and qualified postgraduate teachers, a state-of-the-art Hi-Tech computer lab, science laboratories (Physics, Chemistry, Botany, Zoology), library resources, and expansive sports grounds, our school shapes disciplined, skilled, and successful young citizens.
+              </p>
+
+              <div class="pillars-grid">
+                <div class="pillar-box">
+                  <span class="pillar-icon">👁️</span>
+                  <h4>Our Vision</h4>
+                  <p>To nurture enlightened, skilled, and socially conscious students equipped for higher education and competitive success.</p>
+                </div>
+                <div class="pillar-box">
+                  <span class="pillar-icon">🎯</span>
+                  <h4>Our Mission</h4>
+                  <p>To provide equal learning opportunities in both Tamil &amp; English mediums, promote scientific thinking, and foster talents.</p>
+                </div>
+                <div class="pillar-box">
+                  <span class="pillar-icon">💎</span>
+                  <h4>Core Values</h4>
+                  <p>Discipline, Knowledge, Integrity, Self-Reliance, Curiosity, and Mutual Respect.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Notice Board Section -->
+      <section class="section notice-section" id="notices">
+        <div class="container">
+          <div class="notice-board-container reveal-on-scroll">
+            <div class="notice-header">
+              <div class="notice-title-wrap">
+                <span class="pin-icon">📌</span>
+                <div>
+                  <h2>School Notice Board</h2>
+                  <p>Official circulars, exam schedules, and government school announcements.</p>
+                </div>
+              </div>
+              <button class="btn btn-outline-light" id="openAllNoticesModal">View All Notices</button>
+            </div>
+
+            <div class="notice-cards-grid">
+              <!-- Notice 1 -->
+              <div class="notice-item-card important">
+                <div class="notice-tag tag-urgent">Academic Circular</div>
+                <h3 class="notice-item-title">Hi-Tech Lab &amp; Smart Class Practical Schedule</h3>
+                <p class="notice-item-desc">Digital learning sessions and online science simulations for classes 9 to 12 have been updated.</p>
+                <div class="notice-date">📅 Posted on: [Date Placeholder]</div>
+              </div>
+
+              <!-- Notice 2 -->
+              <div class="notice-item-card exam">
+                <div class="notice-tag tag-exam">Examination Notice</div>
+                <h3 class="notice-item-title">Quarterly Examination Timetable Published</h3>
+                <p class="notice-item-desc">The official timetable for classes 6 to 12 quarterly examinations is displayed on the main school bulletin board.</p>
+                <div class="notice-date">📅 Posted on: [Date Placeholder]</div>
+              </div>
+
+              <!-- Notice 3 -->
+              <div class="notice-item-card holiday">
+                <div class="notice-tag tag-holiday">Holiday Notice</div>
+                <h3 class="notice-item-title">Government Declared Festival Holiday</h3>
+                <p class="notice-item-desc">The school will remain closed on [Holiday Date] observing the government scheduled public holiday.</p>
+                <div class="notice-date">📅 Posted on: [Date Placeholder]</div>
+              </div>
+
+              <!-- Notice 4 -->
+              <div class="notice-item-card general">
+                <div class="notice-tag tag-general">PTA Meeting</div>
+                <h3 class="notice-item-title">Parent-Teacher Association (PTA) Meet</h3>
+                <p class="notice-item-desc">Parents are cordially invited for the upcoming PTA review session to discuss student academic progress and welfare.</p>
+                <div class="notice-date">📅 Posted on: [Date Placeholder]</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ======================================================================
+         PAGE VIEW 2: ACADEMICS
+         ====================================================================== -->
+    <div class="page-view" id="view-academics">
+      <section class="section academics-section" id="academics">
+        <div class="container">
+          <div class="section-header text-center reveal-on-scroll">
+            <span class="section-badge">Academic Structure • Classes 6 to 12</span>
+            <h2 class="section-title">Academic Structure &amp; Mediums</h2>
+            <p class="section-subtitle">Offering comprehensive State Board education for Classes 6 to 12 in both Tamil &amp; English Mediums.</p>
+          </div>
+
+          <!-- Medium of Instruction Showcase Cards -->
+          <div class="medium-showcase-wrapper reveal-on-scroll">
+            <div class="medium-badge-card tamil">
+              <div class="medium-icon">📖</div>
+              <div class="medium-details">
+                <h4>Tamil Medium <span class="medium-classes-pill">Classes 6 - 12</span></h4>
+                <p>Thorough concept mastery in Tamil medium with dedicated study materials and board exam coaching.</p>
+              </div>
+            </div>
+            <div class="medium-badge-card english">
+              <div class="medium-icon">🌐</div>
+              <div class="medium-details">
+                <h4>English Medium <span class="medium-classes-pill">Classes 6 - 12</span></h4>
+                <p>English medium instruction fostering communication fluency, scientific terms, and collegiate readiness.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="academics-grid">
+            <!-- Middle School -->
+            <div class="academic-card reveal-on-scroll">
+              <div class="card-icon-header">
+                <span class="card-icon">📖</span>
+                <span class="level-tag">Classes 6 - 8</span>
+              </div>
+              <h3>Middle School</h3>
+              <p class="card-desc">Strengthening foundational concepts for 6th, 7th &amp; 8th standard students in both Tamil and English mediums.</p>
+              <ul class="academic-features">
+                <li>✓ Tamil Medium &amp; English Medium</li>
+                <li>✓ Core Maths, Science &amp; Social</li>
+                <li>✓ Activity-Based Learning (ABL)</li>
+              </ul>
+            </div>
+
+            <!-- Secondary Education -->
+            <div class="academic-card reveal-on-scroll delay-1">
+              <div class="card-icon-header">
+                <span class="card-icon">🔬</span>
+                <span class="level-tag">Classes 9 - 10</span>
+              </div>
+              <h3>High School</h3>
+              <p class="card-desc">Focused preparation for 9th and 10th SSLC State Board examinations with concept reinforcement and laboratory practicals.</p>
+              <ul class="academic-features">
+                <li>✓ Tamil Medium &amp; English Medium</li>
+                <li>✓ 10th SSLC Board Coaching</li>
+                <li>✓ Science Lab Practical Sessions</li>
+              </ul>
+            </div>
+
+            <!-- Higher Secondary Science Stream -->
+            <div class="academic-card highlight-academic reveal-on-scroll delay-2">
+              <div class="card-icon-header">
+                <span class="card-icon">🧪</span>
+                <span class="level-tag featured">Classes 11 &amp; 12</span>
+              </div>
+              <h3>HSC Science Stream</h3>
+              <p class="card-desc">Specialized science streams (+1 &amp; +2) preparing students for Engineering, Medical, Agriculture, and Science degrees.</p>
+              <ul class="academic-features">
+                <li>✓ Tamil Medium &amp; English Medium</li>
+                <li>✓ Maths, Physics, Chemistry, Biology</li>
+                <li>✓ Computer Science Group</li>
+              </ul>
+            </div>
+
+            <!-- Higher Secondary Commerce & Arts Stream -->
+            <div class="academic-card highlight-academic reveal-on-scroll delay-3">
+              <div class="card-icon-header">
+                <span class="card-icon">📊</span>
+                <span class="level-tag featured">Classes 11 &amp; 12</span>
+              </div>
+              <h3>Commerce &amp; Arts Stream</h3>
+              <p class="card-desc">Specialized Higher Secondary streams in Commerce, Accountancy, Economics, and Arts for collegiate and professional courses.</p>
+              <ul class="academic-features">
+                <li>✓ Tamil Medium &amp; English Medium</li>
+                <li>✓ Commerce &amp; Accountancy</li>
+                <li>✓ Economics &amp; Business Maths</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Learning Approach Subsection -->
+          <div class="learning-approach-box reveal-on-scroll">
+            <div class="approach-header">
+              <h3>5 Pillars of Student Development</h3>
+              <p>Our comprehensive framework for shaping confident, morally upright students:</p>
+            </div>
+            <div class="pillars-5-grid">
+              <div class="pillar-item">
+                <div class="p-num">01</div>
+                <h4>Discipline</h4>
+                <p>Punctuality, respect for teachers, civic responsibility, and moral integrity.</p>
+              </div>
+              <div class="pillar-item">
+                <div class="p-num">02</div>
+                <h4>Knowledge</h4>
+                <p>Conceptual mastery in languages, mathematics, core sciences, and social studies.</p>
+              </div>
+              <div class="pillar-item">
+                <div class="p-num">03</div>
+                <h4>Critical Thinking</h4>
+                <p>Questioning spirit, scientific curiosity, and problem-solving mindset.</p>
+              </div>
+              <div class="pillar-item">
+                <div class="p-num">04</div>
+                <h4>Creativity</h4>
+                <p>Cultural fest participation, drawing, debate, and performing arts.</p>
+              </div>
+              <div class="pillar-item">
+                <div class="p-num">05</div>
+                <h4>Practical Skills</h4>
+                <p>Hands-on lab experiments, digital computer fluency, and athletic teamwork.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ======================================================================
+         PAGE VIEW 3: CAMPUS
+         ====================================================================== -->
+    <div class="page-view" id="view-campus">
+      <section class="section facilities-section" id="campus">
+        <div class="container">
+          <div class="section-header text-center reveal-on-scroll">
+            <span class="section-badge">School Facilities</span>
+            <h2 class="section-title">Campus &amp; Learning Facilities</h2>
+            <p class="section-subtitle">Real amenities supporting quality education, science practicals, and student growth.</p>
+          </div>
+
+          <div class="facilities-grid">
+            <!-- 1. Smart Classrooms -->
+            <div class="facility-card reveal-on-scroll">
+              <div class="facility-img-box">
+                <img 
+                  src="assets/photos/smart_class.jpg" 
+                  alt="Smart Classrooms & Audio-Visual Teaching" 
+                  loading="lazy" 
+                  width="400" 
+                  height="260"
+                  onerror="this.onerror=null; this.src='assets/facilities/smart-class.svg';"
+                >
+                <span class="facility-pill">Digital Learning</span>
+              </div>
+              <div class="facility-card-body">
+                <div class="fac-icon-title">
+                  <span class="f-icon">🖥️</span>
+                  <h3>Smart Classrooms</h3>
+                </div>
+                <p>Audio-visual smart displays and interactive digital lessons.</p>
+              </div>
+            </div>
+
+            <!-- 2. Science Laboratory -->
+            <div class="facility-card reveal-on-scroll delay-1">
+              <div class="facility-img-box">
+                <img 
+                  src="assets/photos/science_lab.jpg" 
+                  alt="Science Practical Laboratory" 
+                  loading="lazy" 
+                  width="400" 
+                  height="260"
+                  onerror="this.onerror=null; this.src='assets/facilities/science-lab.svg';"
+                >
+                <span class="facility-pill">Practical Lab</span>
+              </div>
+              <div class="facility-card-body">
+                <div class="fac-icon-title">
+                  <span class="f-icon">🧪</span>
+                  <h3>Science Laboratories</h3>
+                </div>
+                <p>Equipped Physics, Chemistry, and Biology practical labs.</p>
+              </div>
+            </div>
+
+            <!-- 3. Hi-Tech Computer Laboratory -->
+            <div class="facility-card reveal-on-scroll delay-2">
+              <div class="facility-img-box">
+                <img 
+                  src="assets/photos/computer_lab.jpg" 
+                  alt="Hi-Tech Computer Laboratory" 
+                  loading="lazy" 
+                  width="400" 
+                  height="260"
+                  onerror="this.onerror=null; this.src='assets/facilities/computer-lab.svg';"
+                >
+                <span class="facility-pill">Computer Lab</span>
+              </div>
+              <div class="facility-card-body">
+                <div class="fac-icon-title">
+                  <span class="f-icon">💻</span>
+                  <h3>Hi-Tech Computer Lab</h3>
+                </div>
+                <p>Dedicated computer terminals with high-speed internet &amp; coding practice.</p>
+              </div>
+            </div>
+
+            <!-- 4. School Library -->
+            <div class="facility-card reveal-on-scroll delay-3">
+              <div class="facility-img-box">
+                <img 
+                  src="assets/photos/library.jpg" 
+                  alt="School Library and Reading Corner" 
+                  loading="lazy" 
+                  width="400" 
+                  height="260"
+                  onerror="this.onerror=null; this.src='assets/facilities/library.svg';"
+                >
+                <span class="facility-pill">Library</span>
+              </div>
+              <div class="facility-card-body">
+                <div class="fac-icon-title">
+                  <span class="f-icon">📚</span>
+                  <h3>School Library</h3>
+                </div>
+                <p>Curated books, reference guides, exam materials, and daily newspapers.</p>
+              </div>
+            </div>
+
+            <!-- 5. Sports Playground -->
+            <div class="facility-card reveal-on-scroll">
+              <div class="facility-img-box">
+                <img 
+                  src="assets/photos/kabaddi.jpg" 
+                  alt="School Sports Ground and Kabaddi Court" 
+                  loading="lazy" 
+                  width="400" 
+                  height="260"
+                  onerror="this.onerror=null; this.src='assets/facilities/playground.svg';"
+                >
+                <span class="facility-pill">Sports Ground</span>
+              </div>
+              <div class="facility-card-body">
+                <div class="fac-icon-title">
+                  <span class="f-icon">⚽</span>
+                  <h3>Sports Playground</h3>
+                </div>
+                <p>Open ground for Kabaddi, Kho-Kho, Volleyball, Football, and athletics.</p>
+              </div>
+            </div>
+
+            <!-- 6. Drinking Water -->
+            <div class="facility-card reveal-on-scroll delay-1">
+              <div class="facility-img-box">
+                <img 
+                  src="assets/photos/eco_garden.jpg" 
+                  alt="Clean Green Campus & RO Water" 
+                  loading="lazy" 
+                  width="400" 
+                  height="260"
+                  onerror="this.onerror=null; this.src='assets/facilities/clean-campus.svg';"
+                >
+                <span class="facility-pill">Eco &amp; RO Water</span>
+              </div>
+              <div class="facility-card-body">
+                <div class="fac-icon-title">
+                  <span class="f-icon">💧</span>
+                  <h3>RO Water &amp; Green Campus</h3>
+                </div>
+                <p>Clean RO drinking water, hygienic sanitation, and tree-lined eco campus.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- YouTube Video Tour & Activities Showcase -->
+          <div class="video-tour-box reveal-on-scroll">
+            <div class="video-tour-header text-center">
+              <span class="video-badge">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="#ef4444" style="vertical-align: middle; margin-right: 6px;">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+                Official School Videos
+              </span>
+              <h3 class="video-tour-title">Campus Tour &amp; School Activities on YouTube</h3>
+              <p class="video-tour-desc">Watch our school practicals, morning assembly, sports events, and student celebrations.</p>
+            </div>
+
+            <div class="video-player-container">
+              <div class="video-embed-wrapper">
+                <iframe 
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0" 
+                  title="GHSS Ariyakudi School Activities and Campus Video" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen
+                  loading="lazy"
+                  class="youtube-embed-frame"
+                ></iframe>
+              </div>
+              <div class="video-cta-wrap">
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="btn btn-youtube">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                  <span>Watch on YouTube</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ======================================================================
+         PAGE VIEW 4: ACHIEVEMENTS
+         ====================================================================== -->
+    <div class="page-view" id="view-achievements">
+      <!-- Achievements Section -->
+      <section class="section achievements-section" id="achievements">
+        <div class="container">
+          <div class="section-header text-center reveal-on-scroll">
+            <span class="section-badge">Our Pride</span>
+            <h2 class="section-title">School Achievements</h2>
+            <p class="section-subtitle">Celebrating student triumphs in Board Exams, Sports Meets, and Cultural Competitions.</p>
+          </div>
+
+          <!-- Statistics Counters -->
+          <div class="stats-grid reveal-on-scroll">
+            <div class="stat-card">
+              <div class="stat-icon">🎓</div>
+              <div class="stat-value" data-target="100">XX+</div>
+              <div class="stat-label">Students Enrolled</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">🏆</div>
+              <div class="stat-value" data-target="50">XX+</div>
+              <div class="stat-label">Awards &amp; Trophies</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">🥇</div>
+              <div class="stat-value" data-target="25">XX+</div>
+              <div class="stat-label">District &amp; Zonal Honours</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">📚</div>
+              <div class="stat-value" data-target="100">100%</div>
+              <div class="stat-label">Commitment to Pass Results</div>
+            </div>
+          </div>
+
+          <!-- Achievement Categories Cards -->
+          <div class="achieve-categories-grid">
+            <div class="achieve-cat-card reveal-on-scroll">
+              <div class="achieve-icon">🏅</div>
+              <h3>Academic Board Results</h3>
+              <p>Consistent pass percentages in 10th SSLC and 12th Board Examinations with high centum scores in key subjects.</p>
+            </div>
+            <div class="achieve-cat-card reveal-on-scroll delay-1">
+              <div class="achieve-icon">🏃</div>
+              <h3>Kabaddi &amp; Athletics</h3>
+              <p>District and zonal championship medals in Kabaddi, Kho-Kho, 100m/400m sprint, long jump, and relay events.</p>
+            </div>
+            <div class="achieve-cat-card reveal-on-scroll delay-2">
+              <div class="achieve-icon">🎭</div>
+              <h3>Cultural Competitions</h3>
+              <p>Outstanding prizes won by our students in elocution, drama, traditional folk dance, and music festivals.</p>
+            </div>
+            <div class="achieve-cat-card reveal-on-scroll delay-3">
+              <div class="achieve-icon">💡</div>
+              <h3>Science Exhibition</h3>
+              <p>Innovative working models developed by students selected for district and state-level Inspire Awards exhibitions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Student Activities Section -->
+      <section class="section activities-section" id="activities">
+        <div class="container">
+          <div class="section-header text-center reveal-on-scroll">
+            <span class="section-badge">Student Clubs &amp; Activities</span>
+            <h2 class="section-title">Student Activities &amp; Clubs</h2>
+            <p class="section-subtitle">Developing leadership, service mindset, and creativity through student clubs.</p>
+          </div>
+
+          <div class="activities-grid">
+            <div class="activity-tile reveal-on-scroll">
+              <div class="activity-emoji">🏃</div>
+              <h3>Kabaddi &amp; Sports Club</h3>
+              <p>Daily morning and evening athletic coaching, Kabaddi drills, Kho-Kho, and inter-house matches.</p>
+            </div>
+            <div class="activity-tile reveal-on-scroll delay-1">
+              <div class="activity-emoji">🎭</div>
+              <h3>Cultural &amp; Drama Club</h3>
+              <p>Folk arts, drama, elocution, poetry recitation, and singing competitions.</p>
+            </div>
+            <div class="activity-tile reveal-on-scroll delay-2">
+              <div class="activity-emoji">🔬</div>
+              <h3>Science &amp; Eco Club</h3>
+              <p>Tree plantation drives, herbal garden maintenance, campus cleaning, and science project demos.</p>
+            </div>
+            <div class="activity-tile reveal-on-scroll delay-3">
+              <div class="activity-emoji">📖</div>
+              <h3>Literary &amp; Debating Club</h3>
+              <p>Weekly literary meetings, oratorical debates, recitation, and essay writing contests.</p>
+            </div>
+            <div class="activity-tile reveal-on-scroll">
+              <div class="activity-emoji">🎗️</div>
+              <h3>NSS / JRC / Scouts &amp; Guides</h3>
+              <p>Community welfare service, blood donation awareness, first-aid training, and disaster preparedness drills.</p>
+            </div>
+            <div class="activity-tile reveal-on-scroll delay-1">
+              <div class="activity-emoji">🌾</div>
+              <h3>Festival &amp; Celebrations</h3>
+              <p>Traditional festive celebrations, traditional games, Rangoli competitions, and unity events.</p>
+            </div>
+            <div class="activity-tile reveal-on-scroll delay-2">
+              <div class="activity-emoji">🎨</div>
+              <h3>Arts, Crafts &amp; Drawing</h3>
+              <p>Painting, pottery, poster making, and awareness chart competitions showcasing student artistic talent.</p>
+            </div>
+            <div class="activity-tile reveal-on-scroll delay-3">
+              <div class="activity-emoji">🇮🇳</div>
+              <h3>National Days Flag Hoisting</h3>
+              <p>Independence Day and Republic Day celebrations with parade, cultural events, and patriotic tributes.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ======================================================================
+         PAGE VIEW 5: GALLERY
+         ====================================================================== -->
+    <div class="page-view" id="view-gallery">
+      <!-- Photo Gallery Section -->
+      <section class="section gallery-section" id="gallery">
+        <div class="container">
+          <div class="section-header text-center reveal-on-scroll">
+            <span class="section-badge">Moments &amp; Memories</span>
+            <h2 class="section-title">Photo Gallery</h2>
+            <p class="section-subtitle">Capturing real school moments: morning assemblies, smart classes, lab practicals, and sports.</p>
+          </div>
+
+          <!-- Gallery Filter Tabs -->
+          <div class="filter-btn-group reveal-on-scroll" id="galleryFilters" role="tablist" aria-label="Gallery category filters">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Photos</button>
+            <button class="filter-btn" data-filter="campus" role="tab" aria-selected="false">Campus</button>
+            <button class="filter-btn" data-filter="classrooms" role="tab" aria-selected="false">Classrooms</button>
+            <button class="filter-btn" data-filter="events" role="tab" aria-selected="false">Events</button>
+            <button class="filter-btn" data-filter="sports" role="tab" aria-selected="false">Sports</button>
+            <button class="filter-btn" data-filter="activities" role="tab" aria-selected="false">Activities</button>
+          </div>
+
+          <!-- Gallery Grid with Real Photos & Fallbacks -->
+          <div class="gallery-grid" id="galleryGrid">
+            <!-- Item 1: Campus -->
+            <div class="gallery-item reveal-on-scroll" data-category="campus" data-src="assets/photos/campus.jpg" data-caption="GHSS Ariyakudi School Building, Courtyard &amp; Main Entrance">
+              <div class="gallery-thumb">
+                <img 
+                  src="assets/photos/campus.jpg" 
+                  alt="GHSS Ariyakudi Campus Entrance" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/gallery/campus-1.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>Campus Main Building</h4>
+                  <p>Spacious and green school premises</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2: Assembly -->
+            <div class="gallery-item reveal-on-scroll delay-1" data-category="events" data-src="assets/photos/assembly.jpg" data-caption="School Morning Prayer Assembly with Students in Uniform">
+              <div class="gallery-thumb">
+                <img 
+                  src="assets/photos/assembly.jpg" 
+                  alt="Morning Prayer Assembly" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/gallery/campus-2.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>Morning Assembly</h4>
+                  <p>Disciplined student prayer session</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3: Classrooms -->
+            <div class="gallery-item reveal-on-scroll delay-2" data-category="classrooms" data-src="assets/photos/smart_class.jpg" data-caption="Smart Audio-Visual Classroom &amp; High School Biology Lecture">
+              <div class="gallery-thumb">
+                <img 
+                  src="assets/photos/smart_class.jpg" 
+                  alt="Smart Classroom Session" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/gallery/classroom-1.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>Smart Classroom</h4>
+                  <p>Interactive digital teaching</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 4: Science Lab -->
+            <div class="gallery-item reveal-on-scroll delay-3" data-category="classrooms" data-src="assets/photos/science_lab.jpg" data-caption="High School Science Laboratory Practicals &amp; Experiments">
+              <div class="gallery-thumb">
+                <img 
+                  src="assets/photos/science_lab.jpg" 
+                  alt="Science Lab Practical Session" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/facilities/science-lab.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>Science Laboratory</h4>
+                  <p>Hands-on practical experiments</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 5: Sports -->
+            <div class="gallery-item reveal-on-scroll" data-category="sports" data-src="assets/photos/kabaddi.jpg" data-caption="Tamil Nadu State School Kabaddi Tournament on School Ground">
+              <div class="gallery-thumb">
+                <img 
+                  src="assets/photos/kabaddi.jpg" 
+                  alt="Kabaddi Tournament" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/gallery/sports-1.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>Kabaddi Championship</h4>
+                  <p>Athletic team spirit on the ground</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 6: Computer Lab -->
+            <div class="gallery-item reveal-on-scroll delay-1" data-category="classrooms" data-src="assets/photos/computer_lab.jpg" data-caption="TN Govt Hi-Tech Computer Laboratory Practical Session">
+              <div class="gallery-thumb">
+                <img 
+                  src="assets/photos/computer_lab.jpg" 
+                  alt="Hi-Tech Computer Lab" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/gallery/classroom-2.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>Hi-Tech Digital Lab</h4>
+                  <p>Practical coding &amp; computer skills</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 7: Science Exhibition -->
+            <div class="gallery-item reveal-on-scroll delay-2" data-category="events" data-src="assets/photos/science_fair.jpg" data-caption="District School Science Exhibition &amp; Innovative Student Working Models">
+              <div class="gallery-thumb">
+                <img 
+                  src="assets/photos/science_fair.jpg" 
+                  alt="Science Exhibition" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/gallery/event-2.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>Science Exhibition</h4>
+                  <p>Innovative student models &amp; demos</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 8: Sports Football -->
+            <div class="gallery-item reveal-on-scroll delay-3" data-category="sports" data-src="assets/photos/football.jpg" data-caption="Inter-School Football Championship Match on Playground">
+              <div class="gallery-thumb">
+                <img 
+                  src="assets/photos/football.jpg" 
+                  alt="Football Tournament Match" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/gallery/sports-2.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>School Football Match</h4>
+                  <p>Energetic team spirit on the field</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 9: Eco Club Plantation -->
+            <div class="gallery-item reveal-on-scroll" data-category="activities" data-src="assets/photos/eco_garden.jpg" data-caption="School Eco-Club Tree Plantation &amp; Green Campus Drive">
+              <div class="gallery-thumb">
+                <img 
+                  src="assets/photos/eco_garden.jpg" 
+                  alt="Eco Club Tree Plantation" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/gallery/activity-2.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>Eco Club Green Drive</h4>
+                  <p>Tree plantation &amp; herbal garden</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 10: School Library -->
+            <div class="gallery-item reveal-on-scroll delay-1" data-category="campus" data-src="assets/photos/library.jpg" data-caption="School Library &amp; Quiet Reference Reading Hall">
+              <div class="gallery-thumb">
+                <img 
+                  src="assets/photos/library.jpg" 
+                  alt="School Library Reading Space" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/facilities/library.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>School Library</h4>
+                  <p>Books, journals &amp; reference hall</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 11: Cultural Fest -->
+            <div class="gallery-item reveal-on-scroll delay-2" data-category="events" data-src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80" data-caption="Annual Cultural Celebrations &amp; Traditional Dance Performances">
+              <div class="gallery-thumb">
+                <img 
+                  src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80" 
+                  alt="School Cultural Fest" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/gallery/event-1.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>Cultural Celebrations</h4>
+                  <p>Traditional folk arts &amp; drama</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 12: Creative Arts Workshop -->
+            <div class="gallery-item reveal-on-scroll delay-3" data-category="activities" data-src="https://images.unsplash.com/photo-1460661419200-1868aeb56fe8?auto=format&fit=crop&w=1200&q=80" data-caption="Student Arts, Painting &amp; Drawing Workshop">
+              <div class="gallery-thumb">
+                <img 
+                  src="https://images.unsplash.com/photo-1460661419200-1868aeb56fe8?auto=format&fit=crop&w=600&q=80" 
+                  alt="Arts and Drawing Workshop" 
+                  loading="lazy"
+                  onerror="this.onerror=null; this.src='assets/gallery/activity-1.svg';"
+                >
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <h4>Creative Arts &amp; Drawing</h4>
+                  <p>Expressive painting sessions</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ======================================================================
+         PAGE VIEW 6: CONTACT & LOCATION
+         ====================================================================== -->
+    <div class="page-view" id="view-contact">
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="section-header text-center reveal-on-scroll">
+            <span class="section-badge">Get In Touch</span>
+            <h2 class="section-title">Contact &amp; Location</h2>
+            <p class="section-subtitle">Reach out to school administration or visit our campus in Ariyakudi, Sivaganga District.</p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Left: Contact Details Column -->
+            <div class="contact-info-col reveal-on-scroll">
+              <!-- Item 1: School Address -->
+              <div class="contact-item-card">
+                <div class="c-icon">🏛️</div>
+                <div class="c-details">
+                  <h4>School Address</h4>
+                  <p>Government Higher Secondary School (GHSS)</p>
+                  <span class="c-sub">Ariyakudi, Karaikudi Taluk, Sivaganga District, Tamil Nadu – 630 202</span>
+                </div>
+              </div>
+
+              <!-- Item 2: Phone -->
+              <div class="contact-item-card">
+                <div class="c-icon">📞</div>
+                <div class="c-details">
+                  <h4>Phone &amp; Office</h4>
+                  <p>School Office / Principal Desk</p>
+                  <span class="c-sub">Direct enquiry during school working hours</span>
+                </div>
+              </div>
+
+              <!-- Item 3: Email -->
+              <div class="contact-item-card">
+                <div class="c-icon">✉️</div>
+                <div class="c-details">
+                  <h4>Official Email</h4>
+                  <p>ghss.ariyakudi@gmail.com</p>
+                  <span class="c-sub">For admission queries and official communications</span>
+                </div>
+              </div>
+
+              <!-- Item 4: Timings -->
+              <div class="contact-item-card">
+                <div class="c-icon">🕒</div>
+                <div class="c-details">
+                  <h4>School Hours</h4>
+                  <p>Monday to Friday: 8:30 AM – 5:00 PM</p>
+                  <span class="c-sub">Saturday: Special classes for Classes 10 &amp; 12</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Interactive Google Map Card -->
+            <div class="map-container-card reveal-on-scroll delay-1">
+              <div class="map-placeholder-header">
+                <span>📍 GHSS Ariyakudi Location</span>
+                <span style="color: #4ade80; font-size: 0.8rem;">● Open on School Days</span>
+              </div>
+              <div class="map-visual-frame">
+                <iframe 
+                  src="https://maps.google.com/maps?q=Ariyakudi+Government+Higher+Secondary+School+Sivaganga+Tamil+Nadu&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                  width="100%" 
+                  height="100%" 
+                  style="border:0; min-height: 380px; width: 100%; display: block;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade"
+                  title="GHSS Ariyakudi Google Maps Location"
+                ></iframe>
+              </div>
+              <div class="map-footer-bar">
+                <span>Ariyakudi, Sivaganga District – 630 202</span>
+                <a 
+                  href="https://www.google.com/maps/search/?api=1&query=Government+Higher+Secondary+School+Ariyakudi+Sivaganga" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="map-link"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- 14. FOOTER (Displayed on all pages) -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Bio -->
+        <div class="footer-col footer-about">
+          <div class="footer-brand">
+            <img src="assets/logo.png" alt="GHSS Ariyakudi Official Logo" class="footer-logo" width="52" height="52">
+            <span class="footer-brand-name">GHSS ARIYAKUDI</span>
+          </div>
+          <p class="footer-tagline-text">
+            Government Higher Secondary School, Ariyakudi, Sivaganga District - 630 202. Dedicated to providing quality, inclusive, and transformative education for Classes 6 to 12.
+          </p>
+          <div class="footer-socials">
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Official School YouTube Channel"><span>▶️</span></a>
+            <a href="#contact" data-view="contact" class="social-icon" aria-label="Email Contact"><span>✉️</span></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home" data-view="home">Home</a></li>
+            <li><a href="#about" data-view="home">About School</a></li>
+            <li><a href="#academics" data-view="academics">Academics</a></li>
+            <li><a href="#campus" data-view="campus">Campus Facilities</a></li>
+            <li><a href="#achievements" data-view="achievements">Achievements</a></li>
+            <li><a href="#gallery" data-view="gallery">Photo Gallery</a></li>
+            <li><a href="#contact" data-view="contact">Contact &amp; Location</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Key Portals & Info -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Information</h4>
+          <ul class="footer-links">
+            <li><a href="#notices" data-view="home">Notice Board</a></li>
+            <li><a href="#gallery" data-view="gallery">Photo Gallery</a></li>
+            <li><a href="#contact" data-view="contact">Location Map</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Timings -->
+        <div class="footer-col footer-contact-info">
+          <h4 class="footer-heading">Contact GHSS</h4>
+          <p class="footer-address">
+            <strong>GHSS Ariyakudi</strong><br>
+            Ariyakudi, Sivaganga District,<br>
+            Tamil Nadu - 630 202
+          </p>
+          <p class="footer-meta">
+            <strong>Hours:</strong> Mon - Fri, 8:30 AM - 5:00 PM<br>
+            <a href="#contact" data-view="contact" style="color: #fbbf24; text-decoration: underline; font-size: 0.85rem; margin-top: 4px; display: inline-block;">📍 View on Google Maps</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          &copy; 2026 GHSS Ariyakudi. All Rights Reserved.
+        </p>
+        <p class="footer-note">
+          Official Public Information Portal | Government of Tamil Nadu School Education Department
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Gallery -->
+  <div class="lightbox-modal" id="galleryLightbox" role="dialog" aria-modal="true" aria-label="Image gallery lightbox" hidden>
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-container">
+      <button class="lightbox-btn lightbox-close" id="lightboxClose" aria-label="Close image lightbox">&times;</button>
+      <button class="lightbox-btn lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#10094;</button>
+      <div class="lightbox-figure">
+        <img src="" alt="" id="lightboxImg" class="lightbox-image">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+      </div>
+      <button class="lightbox-btn lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">&#10095;</button>
+    </div>
+  </div>
+
+  <!-- All Notices Modal -->
+  <div class="notice-modal" id="noticesModal" role="dialog" aria-modal="true" aria-label="All school notices" hidden>
+    <div class="modal-backdrop" id="noticesModalBackdrop"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-icon">📋</span>
+          <h3>All School Notices &amp; Circulars</h3>
+        </div>
+        <button class="modal-close-btn" id="noticesModalClose" aria-label="Close notices modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-notices-list">
+          <div class="modal-notice-row">
+            <span class="badge-pill bg-urgent">Academic</span>
+            <div class="m-notice-content">
+              <h4>Hi-Tech Lab &amp; Smart Class Practical Schedule</h4>
+              <p>Digital learning sessions and online science simulations for classes 9 to 12 have been updated.</p>
+              <span class="m-date">Posted on: [Date Placeholder]</span>
+            </div>
+          </div>
+          <div class="modal-notice-row">
+            <span class="badge-pill bg-exam">Exams</span>
+            <div class="m-notice-content">
+              <h4>Quarterly Examination Timetable Release</h4>
+              <p>Timetable for Classes 6 to 12 quarterly exams is now displayed on the notice board.</p>
+              <span class="m-date">Posted on: [Date Placeholder]</span>
+            </div>
+          </div>
+          <div class="modal-notice-row">
+            <span class="badge-pill bg-holiday">Holiday</span>
+            <div class="m-notice-content">
+              <h4>Public Holiday Announcement</h4>
+              <p>The school will remain closed on [Holiday Date] observing the government scheduled holiday.</p>
+              <span class="m-date">Posted on: [Date Placeholder]</span>
+            </div>
+          </div>
+          <div class="modal-notice-row">
+            <span class="badge-pill bg-general">PTA Meet</span>
+            <div class="m-notice-content">
+              <h4>Parent-Teacher Association (PTA) Meet</h4>
+              <p>Review meeting scheduled for parents and teachers to discuss student academic progress and welfare.</p>
+              <span class="m-date">Posted on: [Date Placeholder]</span>
+            </div>
+          </div>
+          <div class="modal-notice-row">
+            <span class="badge-pill bg-sports">Sports</span>
+            <div class="m-notice-content">
+              <h4>Kabaddi &amp; Athletics Selection Trials</h4>
+              <p>Interested student athletes are invited to attend zonal trials on the school sports ground.</p>
+              <span class="m-date">Posted on: [Date Placeholder]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="noticesModalCloseBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Back-to-Top Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Scroll back to top" title="Back to Top">
+    ↑
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>

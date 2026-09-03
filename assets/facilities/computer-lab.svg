@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="compGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#compGrad)"/>
+  <!-- Modern Computer Station 1 (Center) -->
+  <rect x="130" y="50" width="140" height="95" rx="6" fill="#0284c7" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="136" y="56" width="128" height="83" rx="3" fill="#0f172a"/>
+  <!-- Code on Screen -->
+  <text x="145" y="75" font-family="monospace" font-size="8" fill="#38bdf8">&lt;html&gt;&lt;head&gt;</text>
+  <text x="155" y="90" font-family="monospace" font-size="8" fill="#4ade80">print("Hello World")</text>
+  <text x="155" y="105" font-family="monospace" font-size="8" fill="#fbbf24">for i in range(10):</text>
+  <text x="165" y="120" font-family="monospace" font-size="8" fill="#ec4899">digitalSkills.grow()</text>
+  <!-- Stand & Base -->
+  <rect x="193" y="145" width="14" height="20" fill="#94a3b8"/>
+  <ellipse cx="200" cy="165" rx="30" ry="6" fill="#64748b"/>
+  <!-- Keyboard & Mouse -->
+  <rect x="140" y="178" width="95" height="15" rx="3" fill="#334155" stroke="#64748b"/>
+  <ellipse cx="255" cy="185" rx="8" ry="12" fill="#334155" stroke="#64748b"/>
+
+  <!-- Left Computer (Perspective) -->
+  <rect x="30" y="80" width="80" height="60" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+  <rect x="35" y="85" width="70" height="50" rx="2" fill="#0f172a"/>
+  <path d="M 40 100 L 95 100 M 40 115 L 75 115" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="66" y="140" width="8" height="15" fill="#64748b"/>
+  <ellipse cx="70" cy="155" rx="18" ry="4" fill="#475569"/>
+
+  <!-- Right Computer (Perspective) -->
+  <rect x="290" y="80" width="80" height="60" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+  <rect x="295" y="85" width="70" height="50" rx="2" fill="#0f172a"/>
+  <path d="M 305 100 L 355 100 M 305 115 L 340 115" stroke="#4ade80" stroke-width="2"/>
+  <rect x="326" y="140" width="8" height="15" fill="#64748b"/>
+  <ellipse cx="330" cy="155" rx="18" ry="4" fill="#475569"/>
+
+  <!-- Desk Line -->
+  <line x1="10" y1="200" x2="390" y2="200" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="10" y="202" width="380" height="40" fill="#1e293b" opacity="0.6"/>
+</svg>
