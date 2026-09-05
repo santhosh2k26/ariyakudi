@@ -483,4 +483,50 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(typeMotto, 600);
   }
 
+  // ==========================================================================
+  // 11. Live Gallery from Admin Panel
+  // ==========================================================================
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbylnls-aXyXxZRXs6h9Wj497urTSgLjbaUuxDz6lHMtqeOjwuYH_y0fhPx5C0_DYrhP9g/exec';
+
+  async function loadLiveGallery() {
+    try {
+      const response = await fetch(SCRIPT_URL, {
+        method: 'POST',
+        body: JSON.stringify({ action: 'getGallery', data: {} })
+      });
+      
+      const result = await response.json();
+      
+      if (result.status === 'success') {
+        const galleryImages = result.data;
+        const galleryGrid = document.getElementById('galleryGrid');
+        
+        if (galleryGrid && galleryImages.length > 0) {
+          galleryGrid.innerHTML = ''; // Clear old hardcoded images
+          
+          galleryImages.forEach(item => {
+            if (item.status === 'published') {
+              galleryGrid.innerHTML += `
+                <div class="gallery-item reveal-on-scroll" data-category="events" data-src="${item.imageUrl}" data-caption="${item.title}">
+                  <div class="gallery-thumb">
+                    <img src="${item.imageUrl}" alt="${item.title}" loading="lazy" class="gallery-img">
+                    <div class="gallery-overlay">
+                      <span class="zoom-icon">🔍</span>
+                      <h3 class="gallery-title">${item.title}</h3>
+                      <span class="gallery-category">Live Update</span>
+                    </div>
+                  </div>
+                </div>
+              `;
+            }
+          });
+        }
+      }
+    } catch (error) {
+      console.error("Failed to load gallery from Admin Panel:", error);
+    }
+  }
+
+  loadLiveGallery();
+
 });
